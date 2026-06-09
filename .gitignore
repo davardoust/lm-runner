@@ -1,6 +1,7 @@
 # Python
 __pycache__/
 outputs/
+outputs-old/
 *.py[cod]
 *$py.class
 *.so
