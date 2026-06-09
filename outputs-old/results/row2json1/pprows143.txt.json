@@ -1,0 +1,122 @@
+{
+  "filename": "pprows143.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 00:33:04",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": "دكر آن منصوری",
+        "age": null,
+        "gender": "خانم",
+        "national_code": null
+      },
+      "lab_info": {
+        "name": "Hematology",
+        "code": null,
+        "technical_officer": null
+      },
+      "doctor_info": {
+        "name": "اسمي"
+      },
+      "date": null,
+      "receipt_no": null,
+      "test_no": null,
+      "answer_date": null
+    },
+    "tests": [
+      {
+        "section": "Hematology",
+        "tests": [
+          {
+            "test_name": "WBC",
+            "result": 6.51,
+            "unit": "10^3/μL",
+            "reference_value": "4.0-11.0",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "RBC",
+            "result": 5.33,
+            "unit": "10^6/µL",
+            "reference_value": "4.5-5.9",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Hemoglobin",
+            "result": 14.0,
+            "unit": "g/dL",
+            "reference_value": "13.5-17.5",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Hematocrit",
+            "result": 36.0,
+            "unit": "%",
+            "reference_value": "41-53",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "MCV",
+            "result": 94.0,
+            "unit": "fL",
+            "reference_value": "80-100",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Platelets",
+            "result": 296.0,
+            "unit": "10^3/μL",
+            "reference_value": "150-450",
+            "method": null,
+            "note": null
+          }
+        ]
+      },
+      {
+        "section": "Uric Analysis",
+        "tests": [
+          {
+            "test_name": "Appearance",
+            "result": "Semi-Clear",
+            "unit": null,
+            "reference_value": null,
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Color",
+            "result": "Yellow",
+            "unit": null,
+            "reference_value": "5.0-7.5",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Specific Gravity",
+            "result": 1.01,
+            "unit": null,
+            "reference_value": "1.005-1.025",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "bH",
+            "result": 5.73,
+            "unit": null,
+            "reference_value": null,
+            "method": null,
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 10.74
+}

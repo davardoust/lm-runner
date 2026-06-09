@@ -1,0 +1,202 @@
+{
+  "filename": "pprows84.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 00:54:06",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": "أزماي شطارة",
+        "age": null,
+        "gender": "زن",
+        "national_code": null
+      },
+      "lab_info": {
+        "name": "Biochemistry",
+        "code": "Iest",
+        "technical_officer": "تام بيعارة رقيه علي بور"
+      },
+      "doctor_info": {
+        "name": "دكرمينا هاشعى"
+      },
+      "date": null,
+      "receipt_no": "ارج١٤٣",
+      "test_no": "كدمل",
+      "answer_date": null
+    },
+    "tests": [
+      {
+        "section": "Biochemistry",
+        "tests": [
+          {
+            "test_name": "FBS (Glucose)",
+            "result": 107.0,
+            "unit": "mg/dL",
+            "reference_value": "70-99 Normal",
+            "method": null,
+            "note": "100-125 Impaired\n≥126 Diabetes"
+          },
+          {
+            "test_name": "Urea (BUN)",
+            "result": 30.0,
+            "unit": "mg/dL",
+            "reference_value": "8-23 Adult",
+            "method": null,
+            "note": "Lowerindadrea"
+          },
+          {
+            "test_name": "Creatinine",
+            "result": 0.4,
+            "unit": "mg/dL",
+            "reference_value": "0.7-13 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Cholesterol (Total)",
+            "result": 209.0,
+            "unit": "mg/dL",
+            "reference_value": "200-239 Borderline\n≥240 High",
+            "method": null,
+            "note": "Q00 Desirable"
+          },
+          {
+            "test_name": "Triglycerides",
+            "result": 82.0,
+            "unit": "mg/dL",
+            "reference_value": "150-199 Borderline\n200-499 High\n≥00 Very High",
+            "method": null,
+            "note": "450 Normal"
+          },
+          {
+            "test_name": "LDL-C",
+            "result": 134.0,
+            "unit": "mg/dL",
+            "reference_value": "100-129 Near Optimal\n130-159 Borderline High\n160-189 High\n≥190 Very High",
+            "method": null,
+            "note": "400 Optimal"
+          },
+          {
+            "test_name": "DL-C",
+            "result": 39.0,
+            "unit": "mg/dL",
+            "reference_value": "40-59 Acceptable\n≥60 High (protective)",
+            "method": null,
+            "note": "40Lom (risk)"
+          },
+          {
+            "test_name": "Phosphorus",
+            "result": 20.0,
+            "unit": "mg/dL",
+            "reference_value": "1.7-24 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Magnesium",
+            "result": 5.67,
+            "unit": "mg/dL",
+            "reference_value": "3.5-72 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Uric Acid",
+            "result": 76.0,
+            "unit": "mg/dL",
+            "reference_value": "20-300 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Famim",
+            "result": null,
+            "unit": "mg/dL",
+            "reference_value": "Lower in women",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Total Bilirubin",
+            "result": 1.29,
+            "unit": "mg/dL",
+            "reference_value": "0.3-1.2 Total",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Direct Bilirubin",
+            "result": 0.09,
+            "unit": "mg/dL",
+            "reference_value": "0.1-0.3 Direct",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Phosphorus",
+            "result": 20.0,
+            "unit": "mg/dL",
+            "reference_value": "1.7-24 Adult",
+            "method": null,
+            "note": null
+          }
+        ]
+      },
+      {
+        "section": "Hematology",
+        "tests": [
+          {
+            "test_name": "VBC",
+            "result": 8.95,
+            "unit": "10^12/L",
+            "reference_value": "4.0-11.0",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "RBC",
+            "result": 5.09,
+            "unit": "10^6/uL",
+            "reference_value": "45-59",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Hemoglobin",
+            "result": 15.0,
+            "unit": "g/dL",
+            "reference_value": "13.5-17.5",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Hematocrit",
+            "result": 48.0,
+            "unit": "%",
+            "reference_value": "41-53",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "ICV",
+            "result": 104.0,
+            "unit": "Firh",
+            "reference_value": "81-100",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Platelets",
+            "result": 106.0,
+            "unit": "10^3/L",
+            "reference_value": "150-450",
+            "method": null,
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 21.49
+}

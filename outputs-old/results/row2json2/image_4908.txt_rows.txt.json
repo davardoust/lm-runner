@@ -1,0 +1,101 @@
+{
+  "filename": "image_4908.txt_rows.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 13:23:18",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": null,
+        "age": null,
+        "gender": null,
+        "national_code": "0407002178"
+      },
+      "lab_info": {
+        "name": "بيمارستان فوق تخصصي صارم",
+        "code": null,
+        "technical_officer": null
+      },
+      "doctor_info": {
+        "name": null
+      },
+      "date": "1404/07/07",
+      "receipt_no": null,
+      "test_no": null,
+      "answer_date": null
+    },
+    "tests": [
+      {
+        "section": "Biochemistry",
+        "tests": [
+          {
+            "test_name": "FBS",
+            "result": 95.0,
+            "unit": "mg/dl",
+            "reference_value": "70-100",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Cholesterol",
+            "result": 232.0,
+            "unit": "mg/dl",
+            "reference_value": "<=199 Desirable 200-239 Borderline =>240 High Risk",
+            "method": null,
+            "note": "*"
+          },
+          {
+            "test_name": "Triglycerides",
+            "result": 144.0,
+            "unit": "mg/dl",
+            "reference_value": "Very high",
+            "method": null,
+            "note": "<=149 Normal 150-199 Borderline 200-499 High =>500"
+          },
+          {
+            "test_name": "HDL",
+            "result": 47.0,
+            "unit": "mg/dl",
+            "reference_value": "30-75",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "LDL",
+            "result": 159.0,
+            "unit": "mg/dl",
+            "reference_value": "<130 Normal 130-160 Borderline >160 Abnormal",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "SGOT(AST)",
+            "result": 28.0,
+            "unit": "U/L",
+            "reference_value": "5-31",
+            "method": null,
+            "note": "1/0"
+          },
+          {
+            "test_name": "SGPT(ALT)",
+            "result": 27.0,
+            "unit": "U/L",
+            "reference_value": "Male: <40 Female: <32",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "ALK",
+            "result": 340.0,
+            "unit": "IU/L",
+            "reference_value": "64-306",
+            "method": null,
+            "note": "*"
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 13.99
+}

@@ -1,0 +1,71 @@
+2026-05-20 13:23:01,212 - INFO - [Thread-MainThread] - Pipeline initialized.
+2026-05-20 13:23:02,424 - INFO - [Thread-MainThread] - Loaded 1 prompts from directory ./data/prompts
+2026-05-20 13:23:02,604 - INFO - [Thread-MainThread] - Opik Observability initialized.
+2026-05-20 13:23:02,604 - INFO - [Thread-MainThread] - Starting batch execution...
+2026-05-20 13:23:02,605 - INFO - [Thread-MainThread] - Starting batch for 0 images and 16 text files with 1 threads.
+2026-05-20 13:23:02,605 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_4015_20260315_114334_738.txt_rows.txt] Stage 1: Reading Text File
+2026-05-20 13:23:02,606 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_4015_20260315_114334_738.txt_rows.txt] Running Prompt: row2json2
+2026-05-20 13:23:02,606 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_4015_20260315_114334_738.txt_rows.txt] >>> Sending request to lmstudio...
+2026-05-20 13:23:11,560 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_4015_20260315_114334_738.txt_rows.txt] Prompt 'row2json2' Success
+2026-05-20 13:23:11,561 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_4322.txt_rows.txt] Stage 1: Reading Text File
+2026-05-20 13:23:11,561 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_4322.txt_rows.txt] Running Prompt: row2json2
+2026-05-20 13:23:11,561 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_4322.txt_rows.txt] >>> Sending request to lmstudio...
+2026-05-20 13:23:18,822 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_4322.txt_rows.txt] Prompt 'row2json2' Success
+2026-05-20 13:23:18,823 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_4908.txt_rows.txt] Stage 1: Reading Text File
+2026-05-20 13:23:18,823 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_4908.txt_rows.txt] Running Prompt: row2json2
+2026-05-20 13:23:18,824 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_4908.txt_rows.txt] >>> Sending request to lmstudio...
+2026-05-20 13:23:32,816 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_4908.txt_rows.txt] Prompt 'row2json2' Success
+2026-05-20 13:23:32,817 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_5072_20260315_114734_174.txt_rows.txt] Stage 1: Reading Text File
+2026-05-20 13:23:32,817 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_5072_20260315_114734_174.txt_rows.txt] Running Prompt: row2json2
+2026-05-20 13:23:32,817 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_5072_20260315_114734_174.txt_rows.txt] >>> Sending request to lmstudio...
+2026-05-20 13:24:10,398 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_5072_20260315_114734_174.txt_rows.txt] Prompt 'row2json2' Success
+2026-05-20 13:24:10,399 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_5090_20260315_114736_446.txt_rows.txt] Stage 1: Reading Text File
+2026-05-20 13:24:10,400 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_5090_20260315_114736_446.txt_rows.txt] Running Prompt: row2json2
+2026-05-20 13:24:10,400 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_5090_20260315_114736_446.txt_rows.txt] >>> Sending request to lmstudio...
+2026-05-20 13:24:19,250 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_5090_20260315_114736_446.txt_rows.txt] Prompt 'row2json2' Success
+2026-05-20 13:24:19,251 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_5101_20260315_114739_910.txt_rows.txt] Stage 1: Reading Text File
+2026-05-20 13:24:19,252 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_5101_20260315_114739_910.txt_rows.txt] Running Prompt: row2json2
+2026-05-20 13:24:19,252 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_5101_20260315_114739_910.txt_rows.txt] >>> Sending request to lmstudio...
+2026-05-20 13:24:52,661 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_5101_20260315_114739_910.txt_rows.txt] Prompt 'row2json2' Success
+2026-05-20 13:24:52,663 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6005.txt_rows.txt] Stage 1: Reading Text File
+2026-05-20 13:24:52,663 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6005.txt_rows.txt] Running Prompt: row2json2
+2026-05-20 13:24:52,663 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6005.txt_rows.txt] >>> Sending request to lmstudio...
+2026-05-20 13:24:58,050 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6005.txt_rows.txt] Prompt 'row2json2' Success
+2026-05-20 13:24:58,051 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6029.txt_rows.txt] Stage 1: Reading Text File
+2026-05-20 13:24:58,052 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6029.txt_rows.txt] Running Prompt: row2json2
+2026-05-20 13:24:58,052 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6029.txt_rows.txt] >>> Sending request to lmstudio...
+2026-05-20 13:25:13,956 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6029.txt_rows.txt] Prompt 'row2json2' Success
+2026-05-20 13:25:13,957 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6235.txt_rows.txt] Stage 1: Reading Text File
+2026-05-20 13:25:13,958 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6235.txt_rows.txt] Running Prompt: row2json2
+2026-05-20 13:25:13,958 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6235.txt_rows.txt] >>> Sending request to lmstudio...
+2026-05-20 13:25:50,873 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6235.txt_rows.txt] Prompt 'row2json2' Success
+2026-05-20 13:25:50,874 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6274.txt_rows.txt] Stage 1: Reading Text File
+2026-05-20 13:25:50,875 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6274.txt_rows.txt] Running Prompt: row2json2
+2026-05-20 13:25:50,875 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6274.txt_rows.txt] >>> Sending request to lmstudio...
+2026-05-20 13:26:21,260 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6274.txt_rows.txt] Prompt 'row2json2' Success
+2026-05-20 13:26:21,261 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6417.txt_rows.txt] Stage 1: Reading Text File
+2026-05-20 13:26:21,262 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6417.txt_rows.txt] Running Prompt: row2json2
+2026-05-20 13:26:21,262 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6417.txt_rows.txt] >>> Sending request to lmstudio...
+2026-05-20 13:26:26,839 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6417.txt_rows.txt] Prompt 'row2json2' Success
+2026-05-20 13:26:26,840 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6582.txt_rows.txt] Stage 1: Reading Text File
+2026-05-20 13:26:26,840 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6582.txt_rows.txt] Running Prompt: row2json2
+2026-05-20 13:26:26,840 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6582.txt_rows.txt] >>> Sending request to lmstudio...
+2026-05-20 13:27:04,960 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_6582.txt_rows.txt] Prompt 'row2json2' Success
+2026-05-20 13:27:04,962 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_7097.txt_rows.txt] Stage 1: Reading Text File
+2026-05-20 13:27:04,962 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_7097.txt_rows.txt] Running Prompt: row2json2
+2026-05-20 13:27:04,962 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_7097.txt_rows.txt] >>> Sending request to lmstudio...
+2026-05-20 13:27:34,240 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_7097.txt_rows.txt] Prompt 'row2json2' Success
+2026-05-20 13:27:34,241 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_7498.txt_rows.txt] Stage 1: Reading Text File
+2026-05-20 13:27:34,242 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_7498.txt_rows.txt] Running Prompt: row2json2
+2026-05-20 13:27:34,242 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_7498.txt_rows.txt] >>> Sending request to lmstudio...
+2026-05-20 13:27:39,542 - INFO - [Thread-ThreadPoolExecutor-3_0] - [image_7498.txt_rows.txt] Prompt 'row2json2' Success
+2026-05-20 13:27:39,543 - INFO - [Thread-ThreadPoolExecutor-3_0] - [Picture1.txt_rows.txt] Stage 1: Reading Text File
+2026-05-20 13:27:39,544 - INFO - [Thread-ThreadPoolExecutor-3_0] - [Picture1.txt_rows.txt] Running Prompt: row2json2
+2026-05-20 13:27:39,544 - INFO - [Thread-ThreadPoolExecutor-3_0] - [Picture1.txt_rows.txt] >>> Sending request to lmstudio...
+2026-05-20 13:27:58,530 - INFO - [Thread-ThreadPoolExecutor-3_0] - [Picture1.txt_rows.txt] Prompt 'row2json2' Success
+2026-05-20 13:27:58,531 - INFO - [Thread-ThreadPoolExecutor-3_0] - [Picture2.txt_rows.txt] Stage 1: Reading Text File
+2026-05-20 13:27:58,532 - INFO - [Thread-ThreadPoolExecutor-3_0] - [Picture2.txt_rows.txt] Running Prompt: row2json2
+2026-05-20 13:27:58,532 - INFO - [Thread-ThreadPoolExecutor-3_0] - [Picture2.txt_rows.txt] >>> Sending request to lmstudio...
+2026-05-20 13:28:02,776 - INFO - [Thread-ThreadPoolExecutor-3_0] - [Picture2.txt_rows.txt] Prompt 'row2json2' Success
+2026-05-20 13:28:02,778 - INFO - [Thread-MainThread] - Batch completed. Summary at ./outputs\summary_report.csv
+2026-05-20 13:28:02,778 - INFO - [Thread-MainThread] - Pipeline execution finished successfully.

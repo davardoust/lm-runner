@@ -1,0 +1,229 @@
+{
+  "filename": "image_5072_20260315_114734_174.txt_rows.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 13:23:32",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": "عَلِيمَه رَسْتَگَار حُور",
+        "age": 52,
+        "gender": "مرد/زن",
+        "national_code": null
+      },
+      "lab_info": {
+        "name": "Mindray BC-",
+        "code": "Ful Fowytoeer, Laser Light Scattring. Cheical dye",
+        "technical_officer": null
+      },
+      "doctor_info": {
+        "name": "LAB Director"
+      },
+      "date": "10/01/2025",
+      "receipt_no": null,
+      "test_no": null,
+      "answer_date": null
+    },
+    "tests": [
+      {
+        "section": "Complete Blood Count and Differential",
+        "tests": [
+          {
+            "test_name": "WBC",
+            "result": 4.88,
+            "unit": "10^3/UL",
+            "reference_value": "4.00-10.00",
+            "method": null,
+            "note": "DIFF"
+          },
+          {
+            "test_name": "NEUH",
+            "result": 3.44,
+            "unit": "10^3/uL",
+            "reference_value": "2.00-7.00",
+            "method": null,
+            "note": "WBC"
+          },
+          {
+            "test_name": "LYM#",
+            "result": 1.02,
+            "unit": "10^3/uL",
+            "reference_value": "0.80-4.00",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "MON#",
+            "result": 0.29,
+            "unit": "10^3/uL",
+            "reference_value": "0.12-1.20",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "EOS#",
+            "result": 0.12,
+            "unit": "10^3/L",
+            "reference_value": "0.02-0.50",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "BAS#",
+            "result": 0.01,
+            "unit": "10^3/uL",
+            "reference_value": "0.00-0.10",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "NEU%",
+            "result": 70.6,
+            "unit": "%",
+            "reference_value": "50-70",
+            "method": null,
+            "note": "D, NOD, Z00, 300, E"
+          },
+          {
+            "test_name": "LYM%",
+            "result": 20.9,
+            "unit": "%",
+            "reference_value": "20.0-40.0",
+            "method": null,
+            "note": "Pink Mono., Red: Eos., Blue: Neu+Lym+Mon+Eos"
+          },
+          {
+            "test_name": "MON%",
+            "result": 5.9,
+            "unit": "%",
+            "reference_value": "3.0-12.0",
+            "method": null,
+            "note": "Green: Lym., Blue: Neut + Baso, Red: Baso."
+          },
+          {
+            "test_name": "EOS%",
+            "result": 2.4,
+            "unit": "%",
+            "reference_value": "0.5-5.0",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "BAS%",
+            "result": 0.2,
+            "unit": "%",
+            "reference_value": "0.0-1.0",
+            "method": null,
+            "note": "RBC, PLT"
+          },
+          {
+            "test_name": "Band %",
+            "result": null,
+            "unit": "%",
+            "reference_value": "0.1-1",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "RBC",
+            "result": 4.98,
+            "unit": "10^6/UL",
+            "reference_value": "3.50-5.50",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "HGB",
+            "result": 13.2,
+            "unit": "g/dL",
+            "reference_value": "11.0-16.0",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "HCT",
+            "result": 40.0,
+            "unit": "%",
+            "reference_value": "35.9-44.6",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "MCV",
+            "result": 80.3,
+            "unit": "fL",
+            "reference_value": "80.0-100.0",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "MCH",
+            "result": 26.4,
+            "unit": "pg",
+            "reference_value": null,
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "MCHC",
+            "result": 33.0,
+            "unit": "g/dL",
+            "reference_value": "32.0-36.0",
+            "method": null,
+            "note": "RBC Distrubiation, PLT Distrubiation"
+          },
+          {
+            "test_name": "RDW-CV",
+            "result": 13.9,
+            "unit": "%",
+            "reference_value": "11.5-15.5",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "RDW-SD",
+            "result": 40.7,
+            "unit": "fL",
+            "reference_value": "35.0-56.0",
+            "method": null,
+            "note": "WBC Flag, RBC Flag"
+          },
+          {
+            "test_name": "PLT",
+            "result": 183.0,
+            "unit": "10^3/uL",
+            "reference_value": "150-450",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "MPV",
+            "result": 10.5,
+            "unit": "fL",
+            "reference_value": "7-12",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "PDW",
+            "result": 16.3,
+            "unit": null,
+            "reference_value": "15.0-17.0",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "PCT",
+            "result": 0.192,
+            "unit": "%",
+            "reference_value": "0.108-0.282",
+            "method": null,
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 37.58
+}

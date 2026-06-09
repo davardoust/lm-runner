@@ -1,0 +1,66 @@
+{
+  "filename": "image_5090_20260315_114736_446.txt_rows.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 13:24:10",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": "پريسا محمدى",
+        "age": null,
+        "gender": "زن",
+        "national_code": "0890506094"
+      },
+      "lab_info": {
+        "name": "آزمايشگاه تشخيص طبی کویر",
+        "code": "04/05/25",
+        "technical_officer": "دكتر عماد غلامی"
+      },
+      "doctor_info": {
+        "name": "دکتر عماد غلامی"
+      },
+      "date": "04/08/15",
+      "receipt_no": "02/06/19",
+      "test_no": "04/07/07",
+      "answer_date": null
+    },
+    "tests": [
+      {
+        "section": "Hormones",
+        "tests": [
+          {
+            "test_name": "T4",
+            "result": 99.5,
+            "unit": "nmol/L",
+            "reference_value": "60 - 120",
+            "method": "ELFA",
+            "note": "Euthyroidism"
+          },
+          {
+            "test_name": "TSH",
+            "result": 0.83,
+            "unit": "mlU/mL",
+            "reference_value": "Adult: 0.3 - 5",
+            "method": "CLIA",
+            "note": null
+          }
+        ]
+      },
+      {
+        "section": "TSH (continued)",
+        "tests": [
+          {
+            "test_name": "TSH",
+            "result": 4.69,
+            "unit": "3.15",
+            "reference_value": "2.89 - 1.87",
+            "method": "0.83",
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 8.85
+}

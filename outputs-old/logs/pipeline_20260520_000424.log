@@ -1,0 +1,16 @@
+2026-05-20 00:04:24,454 - INFO - [Thread-MainThread] - Pipeline initialized.
+2026-05-20 00:04:47,197 - INFO - [Thread-MainThread] - Loaded 1 prompts from directory ./data/prompts
+2026-05-20 00:04:47,412 - INFO - [Thread-MainThread] - Opik Observability initialized.
+2026-05-20 00:04:47,412 - INFO - [Thread-MainThread] - Starting batch execution...
+2026-05-20 00:04:47,413 - INFO - [Thread-MainThread] - Starting batch for 0 images and 140 text files with 1 threads.
+2026-05-20 00:04:47,414 - INFO - [Thread-ThreadPoolExecutor-3_0] - [pprows1.txt] Stage 1: Reading Text File
+2026-05-20 00:04:47,415 - INFO - [Thread-ThreadPoolExecutor-3_0] - [pprows1.txt] Running Prompt: row2json2
+2026-05-20 00:04:47,415 - INFO - [Thread-ThreadPoolExecutor-3_0] - [pprows1.txt] >>> Sending request to lmstudio...
+2026-05-20 00:05:38,769 - INFO - [Thread-ThreadPoolExecutor-3_0] - [pprows1.txt] Prompt 'row2json2' Success
+2026-05-20 00:05:38,771 - INFO - [Thread-ThreadPoolExecutor-3_0] - [pprows10.txt] Stage 1: Reading Text File
+2026-05-20 00:05:38,772 - INFO - [Thread-ThreadPoolExecutor-3_0] - [pprows10.txt] Running Prompt: row2json2
+2026-05-20 00:05:38,772 - INFO - [Thread-ThreadPoolExecutor-3_0] - [pprows10.txt] >>> Sending request to lmstudio...
+2026-05-20 00:06:10,714 - INFO - [Thread-ThreadPoolExecutor-3_0] - [pprows10.txt] Prompt 'row2json2' Success
+2026-05-20 00:06:10,715 - INFO - [Thread-ThreadPoolExecutor-3_0] - [pprows100.txt] Stage 1: Reading Text File
+2026-05-20 00:06:10,716 - INFO - [Thread-ThreadPoolExecutor-3_0] - [pprows100.txt] Running Prompt: row2json2
+2026-05-20 00:06:10,716 - INFO - [Thread-ThreadPoolExecutor-3_0] - [pprows100.txt] >>> Sending request to lmstudio...

@@ -1,0 +1,138 @@
+{
+  "filename": "pprows54.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 00:45:46",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": null,
+        "age": null,
+        "gender": null,
+        "national_code": null
+      },
+      "lab_info": {
+        "name": null,
+        "code": null,
+        "technical_officer": null
+      },
+      "doctor_info": {
+        "name": null
+      },
+      "date": null,
+      "receipt_no": null,
+      "test_no": null,
+      "answer_date": null
+    },
+    "tests": [
+      {
+        "section": "Hematology",
+        "tests": [
+          {
+            "test_name": "MBC",
+            "result": 6.26,
+            "unit": "Lr103",
+            "reference_value": "4.0-11.0",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "RBC",
+            "result": 5.71,
+            "unit": null,
+            "reference_value": "4.5-5.9",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Hemoglobin",
+            "result": 18.0,
+            "unit": "gidL",
+            "reference_value": "13.5-17.5",
+            "method": null,
+            "note": "High"
+          },
+          {
+            "test_name": "41",
+            "result": null,
+            "unit": null,
+            "reference_value": "41-53",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Hematoct",
+            "result": 100.0,
+            "unit": null,
+            "reference_value": "80-100",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "WCV",
+            "result": 103.0,
+            "unit": "UL",
+            "reference_value": "150-450",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Patelets",
+            "result": 467.0,
+            "unit": null,
+            "reference_value": null,
+            "method": null,
+            "note": null
+          }
+        ]
+      },
+      {
+        "section": "Endocrine",
+        "tests": [
+          {
+            "test_name": "TSH",
+            "result": 4.52,
+            "unit": "mIU/mL",
+            "reference_value": null,
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Prolacim",
+            "result": 34.0,
+            "unit": "ng/mL",
+            "reference_value": "Male: 3-15, Female: 4-25",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "FSH",
+            "result": 11.04,
+            "unit": "mIU/mL",
+            "reference_value": "Male: 1-9, Female (midcycle): 8-20",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Testosterone",
+            "result": 626.0,
+            "unit": "ng/dL",
+            "reference_value": "Male: 300-1000, Female: 20-70",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Stadol(E2)",
+            "result": 166.0,
+            "unit": "pg/mL",
+            "reference_value": "Male: 10-50, Female (follicular): 30-120",
+            "method": null,
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 12.88
+}

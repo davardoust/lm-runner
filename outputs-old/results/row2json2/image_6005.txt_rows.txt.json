@@ -1,0 +1,36 @@
+{
+  "filename": "image_6005.txt_rows.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 13:24:52",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": "نام مراجعه کتدهخانم سیده گرجی",
+        "age": null,
+        "gender": "مرد",
+        "national_code": null
+      },
+      "lab_info": {
+        "name": "بورد تخصصى كلينيكال وآناتوميكال باتولوژزی",
+        "code": "٧٣٥١٥٠ ن٣٣٠",
+        "technical_officer": null
+      },
+      "doctor_info": {
+        "name": "دانشيار دانشكاه علوم بزشكى اصفهان"
+      },
+      "date": null,
+      "receipt_no": null,
+      "test_no": "ج١",
+      "answer_date": "دريور"
+    },
+    "tests": [
+      {
+        "section": "پاتولوژی، سيتولوژی",
+        "tests": []
+      }
+    ]
+  },
+  "error": null,
+  "duration": 5.39
+}

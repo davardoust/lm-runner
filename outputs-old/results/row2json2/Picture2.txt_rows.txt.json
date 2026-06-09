@@ -1,0 +1,45 @@
+{
+  "filename": "Picture2.txt_rows.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 13:27:58",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": "Bahman",
+        "age": null,
+        "gender": "مرد",
+        "national_code": null
+      },
+      "lab_info": {
+        "name": "Medical Laboratory",
+        "code": null,
+        "technical_officer": "Daghizadeh"
+      },
+      "doctor_info": {
+        "name": null
+      },
+      "date": null,
+      "receipt_no": null,
+      "test_no": null,
+      "answer_date": null
+    },
+    "tests": [
+      {
+        "section": "HPV Genotyping",
+        "tests": [
+          {
+            "test_name": "HPV Genotyping",
+            "result": null,
+            "unit": null,
+            "reference_value": null,
+            "method": "Line Probe assay & Real Time Pcr",
+            "note": "Negative"
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 4.24
+}

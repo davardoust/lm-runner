@@ -1,0 +1,114 @@
+{
+  "filename": "pprows102.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 00:15:14",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": "mahani heri",
+        "age": 23,
+        "gender": "مرد",
+        "national_code": null
+      },
+      "lab_info": {
+        "name": "دکتر مهسا ضابطی",
+        "code": "ك مل",
+        "technical_officer": "مسئول فني دكتر فاطمه زهرا ضابطى"
+      },
+      "doctor_info": {
+        "name": "دکتر مهسا ضابطی"
+      },
+      "date": null,
+      "receipt_no": "شماره زمايش٩",
+      "test_no": "شماره ييرش",
+      "answer_date": "تاريخ پاسخ"
+    },
+    "tests": [
+      {
+        "section": "Hormones",
+        "tests": [
+          {
+            "test_name": "TSH",
+            "result": 1.75,
+            "unit": "MIU/L",
+            "reference_value": "0.4-4.0 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Prolactin",
+            "result": 28.0,
+            "unit": "ng/mL",
+            "reference_value": "Male: 3-15\nFemale: 4-25",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "FSH",
+            "result": 1.0,
+            "unit": "mIU/mL",
+            "reference_value": "Male: 1-12\nFemale (follicular): 3-10",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "LH",
+            "result": 5.49,
+            "unit": "mIU/mL",
+            "reference_value": "Male: 1-9\nFemale (mid-cycle): 8-20",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Testosterone",
+            "result": 376.0,
+            "unit": "ng/dL",
+            "reference_value": "Male: 300-1000\nFemale: 20-70",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Estradiol (E2)",
+            "result": 86.0,
+            "unit": "pg/mL",
+            "reference_value": "Male: 10-50\nFemale (follicular): 30-120",
+            "method": null,
+            "note": null
+          }
+        ]
+      },
+      {
+        "section": "Jrine Analysis",
+        "tests": [
+          {
+            "test_name": "Color",
+            "result": "Amber",
+            "unit": null,
+            "reference_value": "Appearance: Clear",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "H",
+            "result": 5.5,
+            "unit": null,
+            "reference_value": "5.0-7.5",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Specific Gravity",
+            "result": 1.01,
+            "unit": null,
+            "reference_value": "1.005-1.025",
+            "method": null,
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 16.6
+}

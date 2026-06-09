@@ -1,0 +1,221 @@
+{
+  "filename": "pprows29.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 00:39:17",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": null,
+        "age": 39,
+        "gender": "مرد",
+        "national_code": null
+      },
+      "lab_info": {
+        "name": "Biochemistry",
+        "code": "1303/113P",
+        "technical_officer": "رد"
+      },
+      "doctor_info": {
+        "name": "نام بز رفان رفي"
+      },
+      "date": null,
+      "receipt_no": null,
+      "test_no": "132121",
+      "answer_date": null
+    },
+    "tests": [
+      {
+        "section": "Biochemistry",
+        "tests": [
+          {
+            "test_name": "FB8 (Glucose)",
+            "result": 85.0,
+            "unit": "mg/dl",
+            "reference_value": "70:99 Nermal",
+            "method": null,
+            "note": "100-425 Impaired\na126 Dlabetes"
+          },
+          {
+            "test_name": "Urea (Bun)",
+            "result": 16.0,
+            "unit": "mg/eL",
+            "reference_value": "8.23 Adult, Lower in children",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Creatinine",
+            "result": 1.05,
+            "unit": "mg/dt",
+            "reference_value": "0.7=4.B Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Cholesterol (Total)",
+            "result": 147.0,
+            "unit": "mg/el",
+            "reference_value": "£200 Desirable, 200-239 Borderline",
+            "method": null,
+            "note": "3240 High"
+          },
+          {
+            "test_name": "Triglycerides",
+            "result": 135.0,
+            "unit": "mg/el",
+            "reference_value": "£150 Normal, 150-499 Borderline",
+            "method": null,
+            "note": "200 499 High\na500 Very High"
+          },
+          {
+            "test_name": "LDL=C",
+            "result": 168.0,
+            "unit": "mg/dl",
+            "reference_value": "=100 Optimal, 100-129 Near optimal, 130-169 Borderline high, 160-189 High, =190 Very high",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "HDL=C",
+            "result": 38.0,
+            "unit": "mg/dt",
+            "reference_value": "EAO LoW (t risk), 40-59 Acceptable, =60 High (protective)",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "AST (SGOT)",
+            "result": 86.0,
+            "unit": "UA",
+            "reference_value": "EA0 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "ALT (SGPT)",
+            "result": 11.0,
+            "unit": "UA",
+            "reference_value": "EA0 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "ALP",
+            "result": 70.0,
+            "unit": "UA",
+            "reference_value": "45-115 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Total Billirubin",
+            "result": 0.46,
+            "unit": "mg/aL",
+            "reference_value": "0.3-1.2 Total",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Direct Bilirubin",
+            "result": 0.19,
+            "unit": "mg/al",
+            "reference_value": "0.1-0.3 Direct",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Calcium",
+            "result": 9.71,
+            "unit": "mg/dL",
+            "reference_value": "8.6-10.3 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Phosphorus",
+            "result": 4.07,
+            "unit": "mg/dl",
+            "reference_value": "2.6 4.6 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Magnesium",
+            "result": 1.96,
+            "unit": "mg/elL",
+            "reference_value": "1.7:2.4 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Uric Acid",
+            "result": 9.8,
+            "unit": "mg/dL",
+            "reference_value": "3.6-7.2 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Ferritin",
+            "result": null,
+            "unit": "ng/mL",
+            "reference_value": "20-300 Adult",
+            "method": null,
+            "note": "Lower in wemen"
+          },
+          {
+            "test_name": "TOH",
+            "result": 1.88,
+            "unit": "mlU/L",
+            "reference_value": "0,4-4.0 Aduit",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Prolactin",
+            "result": 7.0,
+            "unit": "ng/mL",
+            "reference_value": "Male: B-15\nFemale: 4-25",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "FOH",
+            "result": 4.75,
+            "unit": "mlU/mL",
+            "reference_value": "Male: 1:12\nFemale (follicular): 3-10",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "LH",
+            "result": 9.24,
+            "unit": "mlU/mL",
+            "reference_value": "Male: 1=9\nFemale (mid-cycle) 8-20",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Testosterone",
+            "result": 495.0,
+            "unit": "ng/dt",
+            "reference_value": "Male: 300-1000\nFemale: 20-70",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Estradiol (£2)",
+            "result": 68.0,
+            "unit": "pg/mL",
+            "reference_value": "Male: 10.50\nFemale (follicular): 30-120",
+            "method": null,
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 24.95
+}

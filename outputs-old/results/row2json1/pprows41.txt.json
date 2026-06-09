@@ -1,0 +1,114 @@
+{
+  "filename": "pprows41.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 00:42:17",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": "علي معروف",
+        "age": 1,
+        "gender": "مرد",
+        "national_code": "6658851"
+      },
+      "lab_info": {
+        "name": "Urine Analysis",
+        "code": "83394",
+        "technical_officer": "مسئول فنيدكتريوسف موسوى"
+      },
+      "doctor_info": {
+        "name": "دکتر طاها جنتی"
+      },
+      "date": null,
+      "receipt_no": null,
+      "test_no": null,
+      "answer_date": null
+    },
+    "tests": [
+      {
+        "section": "Urine Analysis",
+        "tests": [
+          {
+            "test_name": "Color",
+            "result": "Yellow",
+            "unit": null,
+            "reference_value": "Appearance: Turbid",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "pH",
+            "result": 5.74,
+            "unit": null,
+            "reference_value": "5.0-7.5",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Specific Gravity",
+            "result": 1.03,
+            "unit": "High",
+            "reference_value": "1.005-1.025",
+            "method": null,
+            "note": null
+          }
+        ]
+      },
+      {
+        "section": "Hormones",
+        "tests": [
+          {
+            "test_name": "TSH",
+            "result": 0.68,
+            "unit": "mIU/L",
+            "reference_value": "0.4-4.0 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Prolactin",
+            "result": 3.0,
+            "unit": "ng/mL",
+            "reference_value": "Male: 3-15",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "FSH",
+            "result": 8.97,
+            "unit": "mIU/mL",
+            "reference_value": "Male: 1-12",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "LH",
+            "result": 8.18,
+            "unit": "mIU/mL",
+            "reference_value": "Male: 1-9, Female (midcycle): 8-20",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Testosterone",
+            "result": 686.0,
+            "unit": "ng/dL",
+            "reference_value": "Male: 300-1000",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Estradiol (E2)",
+            "result": 127.0,
+            "unit": "pg/mL",
+            "reference_value": "Male: 10-50, Female (follicular): 30-120",
+            "method": null,
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 10.92
+}

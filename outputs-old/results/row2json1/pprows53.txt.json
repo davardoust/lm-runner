@@ -1,0 +1,202 @@
+{
+  "filename": "pprows53.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 00:45:24",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": null,
+        "age": null,
+        "gender": "مرد",
+        "national_code": null
+      },
+      "lab_info": {
+        "name": "سينا طلوعي",
+        "code": "٣٨",
+        "technical_officer": "مسئول فنيدكتر سينا طلوعي"
+      },
+      "doctor_info": {
+        "name": "بكتر حنانه رودگر"
+      },
+      "date": null,
+      "receipt_no": "٣٨",
+      "test_no": "٣٣٣٨٤",
+      "answer_date": null
+    },
+    "tests": [
+      {
+        "section": "Urine Analysis",
+        "tests": [
+          {
+            "test_name": "Color",
+            "result": "Yellow",
+            "unit": null,
+            "reference_value": "Appearance, Semi-Clear",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "pH",
+            "result": 5.87,
+            "unit": null,
+            "reference_value": "5.0-7.5",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Specific Gravity",
+            "result": 1.01,
+            "unit": null,
+            "reference_value": "1.005-1.025",
+            "method": null,
+            "note": null
+          }
+        ]
+      },
+      {
+        "section": "Biochemistry",
+        "tests": [
+          {
+            "test_name": "FBS (Glucose)",
+            "result": 83.0,
+            "unit": "mg/dL",
+            "reference_value": "70-99 Normal",
+            "method": null,
+            "note": "100-125 Impaired\n≥126 Diabetes"
+          },
+          {
+            "test_name": "Urea (BUN)",
+            "result": 19.0,
+            "unit": "mg/dL",
+            "reference_value": "8-23 Adult",
+            "method": null,
+            "note": "Lower in children"
+          },
+          {
+            "test_name": "Creatinine",
+            "result": 0.92,
+            "unit": "mg/dL",
+            "reference_value": "0.7-1.3 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Cholesterol (Total)",
+            "result": 186.0,
+            "unit": "mg/dL",
+            "reference_value": "<200 Desirable\n200-239 Borderline\n≥240 High",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Triglycerides",
+            "result": 116.0,
+            "unit": "mg/dL",
+            "reference_value": "<150 Normal\n150-199 Borderline\n200-499 High\n≥500 Very High",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "LDL-C",
+            "result": 85.0,
+            "unit": "mg/dL",
+            "reference_value": "<100 Optimal\n100-129 Near optimal\n130-159 Borderline high\n160-189 High\n≥190 Very high",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "HDL-C",
+            "result": 90.0,
+            "unit": "mg/dL",
+            "reference_value": "<40 Low (↑ risk)\n40-59 Acceptable\n≥60 High (protective)",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "AST (SGOT)",
+            "result": 33.0,
+            "unit": "U/L",
+            "reference_value": "<40 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "ALT (SGPT)",
+            "result": 13.0,
+            "unit": "U/L",
+            "reference_value": "<40 Adult\n45-115 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "ALP",
+            "result": null,
+            "unit": null,
+            "reference_value": "0.3-1.2 Total",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Total Bilirubin",
+            "result": 0.57,
+            "unit": "mg/dL",
+            "reference_value": null,
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Direct Bilirubin",
+            "result": 0.31,
+            "unit": "mg/dL",
+            "reference_value": "0.1-0.3 Direct\n8.6-10.3 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Calcium",
+            "result": 10.13,
+            "unit": "mg/dL",
+            "reference_value": "2.5-4.5 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Phosphorus",
+            "result": 3.41,
+            "unit": "mg/dL",
+            "reference_value": "1.7-2.4 Adult\n1.91 mg/dL",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Magnesium",
+            "result": 3.5,
+            "unit": "mg/dL",
+            "reference_value": "3.5-7.2 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Uric Acid",
+            "result": 6.02,
+            "unit": "mg/dL",
+            "reference_value": "20-300 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Erythritin",
+            "result": 114.0,
+            "unit": "ng/mL",
+            "reference_value": "Lower in women",
+            "method": null,
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 21.86
+}

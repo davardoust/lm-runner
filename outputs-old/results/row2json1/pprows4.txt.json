@@ -1,0 +1,114 @@
+{
+  "filename": "pprows4.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 00:41:53",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": "مهديه حسنى",
+        "age": 2,
+        "gender": "خانم",
+        "national_code": "۸۴۴١۱"
+      },
+      "lab_info": {
+        "name": "دکتر ابوالفضل نوروزی",
+        "code": "٨٩١٩",
+        "technical_officer": "دکتر آرتين مجتبوى"
+      },
+      "doctor_info": {
+        "name": "دکتر ابوالفضل نوروزی"
+      },
+      "date": "١٤٠١١٣٠",
+      "receipt_no": null,
+      "test_no": "٨٩١٩",
+      "answer_date": "١٤٠١١٣٠"
+    },
+    "tests": [
+      {
+        "section": "Hematology",
+        "tests": [
+          {
+            "test_name": "WBC",
+            "result": 8.92,
+            "unit": "10^3/μL",
+            "reference_value": "4.0-11.0",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "RBC",
+            "result": 4.83,
+            "unit": "10^6/μL",
+            "reference_value": "4.5-5.9",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Hemoglobin",
+            "result": 14.0,
+            "unit": "g/dL",
+            "reference_value": "13.5-17.5",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Hematocrit",
+            "result": 36.0,
+            "unit": "%",
+            "reference_value": "41-53",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "MCV",
+            "result": 79.0,
+            "unit": "fL",
+            "reference_value": "80-100",
+            "method": null,
+            "note": "↓"
+          },
+          {
+            "test_name": "Platelets",
+            "result": 55.0,
+            "unit": "10^3/μL",
+            "reference_value": "150-450",
+            "method": null,
+            "note": "Low"
+          }
+        ]
+      },
+      {
+        "section": "Jrine Analysis",
+        "tests": [
+          {
+            "test_name": "Color",
+            "result": "Yellow",
+            "unit": null,
+            "reference_value": "Appearance",
+            "method": null,
+            "note": "Cloudy"
+          },
+          {
+            "test_name": "oH",
+            "result": 6.37,
+            "unit": null,
+            "reference_value": "5.0-7.5",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Specific Gravity",
+            "result": 1.02,
+            "unit": null,
+            "reference_value": "1.005-1.025",
+            "method": null,
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 11.51
+}

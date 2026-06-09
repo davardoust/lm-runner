@@ -1,0 +1,45 @@
+{
+  "filename": "image_4015_20260315_114334_738.txt_rows.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 13:23:02",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": "جواد صفاني نانيني",
+        "age": 35,
+        "gender": "مرد",
+        "national_code": "١٨٢٤٩١١"
+      },
+      "lab_info": {
+        "name": "Biochemistry",
+        "code": "٧٧٨٠١٠٠١٠",
+        "technical_officer": "سيد حسن ميرنيا"
+      },
+      "doctor_info": {
+        "name": "دكتر سيد اشكان مشتري"
+      },
+      "date": null,
+      "receipt_no": null,
+      "test_no": null,
+      "answer_date": null
+    },
+    "tests": [
+      {
+        "section": "Biochemistry",
+        "tests": [
+          {
+            "test_name": "troponin",
+            "result": null,
+            "unit": "Negative<19&",
+            "reference_value": "Borderline:19-20--",
+            "method": null,
+            "note": "Positive :>100"
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 8.95
+}

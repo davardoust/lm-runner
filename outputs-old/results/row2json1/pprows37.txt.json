@@ -1,0 +1,45 @@
+{
+  "filename": "pprows37.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 00:41:23",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": "مبنای کمالی",
+        "age": 9,
+        "gender": "مرد",
+        "national_code": null
+      },
+      "lab_info": {
+        "name": "هيماتولوژی",
+        "code": "Hematology",
+        "technical_officer": "دکتر امیر مهدی وثاق"
+      },
+      "doctor_info": {
+        "name": "دکتر آتنا تنزیلی"
+      },
+      "date": null,
+      "receipt_no": null,
+      "test_no": null,
+      "answer_date": null
+    },
+    "tests": [
+      {
+        "section": "Hematology",
+        "tests": [
+          {
+            "test_name": "WBC",
+            "result": 6.23,
+            "unit": "10^6/µL",
+            "reference_value": "4.5-5.9",
+            "method": null,
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 4.08
+}

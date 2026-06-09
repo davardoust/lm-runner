@@ -1,0 +1,114 @@
+{
+  "filename": "pprows13.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 00:26:03",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": "آرش على بور",
+        "age": null,
+        "gender": "مرد",
+        "national_code": null
+      },
+      "lab_info": {
+        "name": "دكتر عباس نوبختى",
+        "code": null,
+        "technical_officer": "دكتر عباس نوبختى"
+      },
+      "doctor_info": {
+        "name": "دكتر يگانه معروف"
+      },
+      "date": null,
+      "receipt_no": null,
+      "test_no": null,
+      "answer_date": null
+    },
+    "tests": [
+      {
+        "section": "Hormones",
+        "tests": [
+          {
+            "test_name": "TSH",
+            "result": 3.7,
+            "unit": "mIU/L",
+            "reference_value": "0.4-4.0 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Prolactin",
+            "result": 16.0,
+            "unit": "ng/mL",
+            "reference_value": "Male: 3-15\nFemale: 4-25",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "FSH",
+            "result": 1.0,
+            "unit": "mIU/mL",
+            "reference_value": "Female (follicular): 3-10\nMale: 1-9",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "LH",
+            "result": 7.36,
+            "unit": "mIU/mL",
+            "reference_value": "Female (mid-cycle): 8-20\nMale: 1-12",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Testosterone",
+            "result": 113.0,
+            "unit": "pg/mL",
+            "reference_value": "Male: 10-50\nFemale: 20-70",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Estradiol (E2)",
+            "result": 454.0,
+            "unit": "ng/dL",
+            "reference_value": "Female (follicular): 30-120\nMale: 300-1000",
+            "method": null,
+            "note": null
+          }
+        ]
+      },
+      {
+        "section": "Urine Analysis",
+        "tests": [
+          {
+            "test_name": "Color",
+            "result": "Yellow",
+            "unit": null,
+            "reference_value": "1.005-1.025",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "pH",
+            "result": 6.73,
+            "unit": null,
+            "reference_value": "5.0-7.5",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Specific Gravity",
+            "result": 1.03,
+            "unit": null,
+            "reference_value": "High",
+            "method": null,
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 16.16
+}

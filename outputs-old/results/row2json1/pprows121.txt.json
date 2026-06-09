@@ -1,0 +1,138 @@
+{
+  "filename": "pprows121.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 00:22:33",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": "محمد امين زنجانی",
+        "age": null,
+        "gender": "مرد",
+        "national_code": null
+      },
+      "lab_info": {
+        "name": "ماره زمايش",
+        "code": "كمل",
+        "technical_officer": "مستول فتي دكتربرا رودگر"
+      },
+      "doctor_info": {
+        "name": "دکتر عل ضابطي"
+      },
+      "date": null,
+      "receipt_no": null,
+      "test_no": null,
+      "answer_date": null
+    },
+    "tests": [
+      {
+        "section": "Hematology",
+        "tests": [
+          {
+            "test_name": "WBC",
+            "result": 6.55,
+            "unit": "10^3/μL",
+            "reference_value": "4.0-11.0",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "RBC",
+            "result": 3.78,
+            "unit": "10^6/μL",
+            "reference_value": "4.5-5.9",
+            "method": null,
+            "note": "*"
+          },
+          {
+            "test_name": "Hemoglobin",
+            "result": 15.0,
+            "unit": "g/dL",
+            "reference_value": "13.5-17.5",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Hematocrit",
+            "result": 42.0,
+            "unit": "%",
+            "reference_value": "41-53",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "MCV",
+            "result": 86.0,
+            "unit": "fL",
+            "reference_value": "80-100",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Platelets",
+            "result": 259.0,
+            "unit": "10^3/μL",
+            "reference_value": "150-450",
+            "method": null,
+            "note": null
+          }
+        ]
+      },
+      {
+        "section": "Hormones",
+        "tests": [
+          {
+            "test_name": "TSH",
+            "result": 1.09,
+            "unit": "mIU/L",
+            "reference_value": "0.4-4.0 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Prolactin",
+            "result": 10.0,
+            "unit": "ng/mL",
+            "reference_value": "Male: 3-15\nFemale: 4-25",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "FSH",
+            "result": 4.0,
+            "unit": "mIU/mL",
+            "reference_value": "Male: 1-12\nFemale (follicular): 3-10",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "LH",
+            "result": 5.81,
+            "unit": "mIU/mL",
+            "reference_value": "Male: 1-9\nFemale (mid-cycle): 8-20",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Testosterone",
+            "result": 941.0,
+            "unit": "ng/dL",
+            "reference_value": "Male: 300-1000\nFemale: 20-70",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Estradiol (E2)",
+            "result": 155.0,
+            "unit": "pg/mL",
+            "reference_value": "Male: 10-50\nFemale (follicular): 30-120",
+            "method": null,
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 20.32
+}

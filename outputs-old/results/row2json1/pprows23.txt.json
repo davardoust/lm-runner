@@ -1,0 +1,130 @@
+{
+  "filename": "pprows23.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 00:37:48",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": "رضا معين",
+        "age": null,
+        "gender": "آقا",
+        "national_code": null
+      },
+      "lab_info": {
+        "name": "شماره بيذيرش",
+        "code": "كدمل٩",
+        "technical_officer": "نام بيمارة رضا معين"
+      },
+      "doctor_info": {
+        "name": "دكتر آلين عبدالعلی"
+      },
+      "date": null,
+      "receipt_no": null,
+      "test_no": null,
+      "answer_date": null
+    },
+    "tests": [
+      {
+        "section": "Hormones",
+        "tests": [
+          {
+            "test_name": "TSH",
+            "result": 1.57,
+            "unit": "mlU/L",
+            "reference_value": "0.4-4.0 Adult",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Prolactin",
+            "result": 24.0,
+            "unit": "ng/mL",
+            "reference_value": "Male: 3-15\nFemale: 4-25",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "FSH",
+            "result": 3.27,
+            "unit": "mlU/mL",
+            "reference_value": "Male: 1-12\nFemale (follicular): 3-10",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "LH",
+            "result": 9.15,
+            "unit": "mlU/mL",
+            "reference_value": "Male: 1-9\nFemale (midcycle):8-20",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Testosterone",
+            "result": 840.0,
+            "unit": "ng/dL",
+            "reference_value": "Male: 300-1000\nFemale: 20-70",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Estradiol (E2)",
+            "result": 81.0,
+            "unit": "pg/mL",
+            "reference_value": "Male: 10-50\nFemale (follicular): 30-120",
+            "method": null,
+            "note": null
+          }
+        ]
+      },
+      {
+        "section": "Hematology",
+        "tests": [
+          {
+            "test_name": "WBC",
+            "result": 7.77,
+            "unit": "10^3/μL",
+            "reference_value": "4.0-11.0",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "RBC",
+            "result": 4.87,
+            "unit": "10^6/μL",
+            "reference_value": "13.5-17.5",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Hemoglobin",
+            "result": 16.0,
+            "unit": "g/dL",
+            "reference_value": null,
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "MCV",
+            "result": 90.0,
+            "unit": "fL",
+            "reference_value": "150-450",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Platelets",
+            "result": 123.0,
+            "unit": "*",
+            "reference_value": null,
+            "method": null,
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 12.82
+}

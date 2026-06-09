@@ -1,0 +1,229 @@
+{
+  "filename": "image_6235.txt_rows.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 13:25:13",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": "fariba yusefpour",
+        "age": null,
+        "gender": "مرد/زن",
+        "national_code": "52578215"
+      },
+      "lab_info": {
+        "name": "TABRIZ INNRNATIONAL HOSPITAL LABORA",
+        "code": "SYSMEX XT-1800 FLUORESCENCE FLOW CYTOMETRY",
+        "technical_officer": null
+      },
+      "doctor_info": {
+        "name": "M.Ordibazar.MD.AP&CP"
+      },
+      "date": "2025/09/29",
+      "receipt_no": null,
+      "test_no": null,
+      "answer_date": "2025/09/29"
+    },
+    "tests": [
+      {
+        "section": "CBC",
+        "tests": [
+          {
+            "test_name": "WBC",
+            "result": 8.67,
+            "unit": "[10^3/uL]",
+            "reference_value": "(4.00-10.00)",
+            "method": null,
+            "note": "SCATTERGRAMS & HISTOGRAMS"
+          },
+          {
+            "test_name": "NEUT#",
+            "result": 5.97,
+            "unit": "[10^3/uL]",
+            "reference_value": "(2.00-7.00)",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "LYMPH#",
+            "result": 1.79,
+            "unit": "[10^3/uL]",
+            "reference_value": "(1.00-3.00)",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "MONO#",
+            "result": 0.89,
+            "unit": "[10^3/uL]",
+            "reference_value": "(0.20-1.00)",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "EO#",
+            "result": 0.02,
+            "unit": "[10^3/uL]",
+            "reference_value": "(0.02-0.50)",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "BASO#",
+            "result": 0.0,
+            "unit": "[10^3/uL]",
+            "reference_value": "(0.00-0.10)",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "NEUT%",
+            "result": 68.9,
+            "unit": "[%]",
+            "reference_value": "(40.0-80.0)",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "LYMPH%",
+            "result": 20.6,
+            "unit": "[%]",
+            "reference_value": "(20.0-40.0)",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "MONO%",
+            "result": 10.3,
+            "unit": "[%]",
+            "reference_value": "(2.0-10.0)",
+            "method": null,
+            "note": "SSC"
+          },
+          {
+            "test_name": "EO%",
+            "result": 0.2,
+            "unit": "[%]",
+            "reference_value": "(1.0-6.0)",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "BASO%",
+            "result": 0.0,
+            "unit": "[%]",
+            "reference_value": "(0.0-2.0)",
+            "method": null,
+            "note": "ST"
+          },
+          {
+            "test_name": "RBC",
+            "result": 4.35,
+            "unit": "[10^6/uL]",
+            "reference_value": "(3.80-5.50)",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "HGB",
+            "result": 11.7,
+            "unit": "[g/dL]",
+            "reference_value": "(12.5-18.0)",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "HCT",
+            "result": 35.0,
+            "unit": "[%]",
+            "reference_value": "(36.0-51.0)",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "MCV",
+            "result": 80.5,
+            "unit": "[fL]",
+            "reference_value": "(83.0-101.0)",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "MCH",
+            "result": 26.9,
+            "unit": "[pg]",
+            "reference_value": "(27.0-32.0)",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "MCHC",
+            "result": 33.4,
+            "unit": "[g/dL]",
+            "reference_value": "(31.5-34.5)",
+            "method": null,
+            "note": "SSC"
+          },
+          {
+            "test_name": "RDW-CV",
+            "result": 13.8,
+            "unit": "[%]",
+            "reference_value": "(11.6-14.0)",
+            "method": null,
+            "note": "PLT"
+          },
+          {
+            "test_name": "RDW-SD",
+            "result": 39.7,
+            "unit": "[fL]",
+            "reference_value": "(39.0-46.0)",
+            "method": null,
+            "note": "RBC"
+          },
+          {
+            "test_name": "PLT",
+            "result": 234.0,
+            "unit": "[10^3/uL]",
+            "reference_value": "(150-400)",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "PDW",
+            "result": 12.1,
+            "unit": "[fL]",
+            "reference_value": "(9.0-17.0)",
+            "method": null,
+            "note": "EMTN"
+          },
+          {
+            "test_name": "MPV",
+            "result": 10.0,
+            "unit": "[FL]",
+            "reference_value": "(7.5-11.5)",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "P-LCR",
+            "result": 25.5,
+            "unit": "[%]",
+            "reference_value": "(13.0-43.0)",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "PCT",
+            "result": 0.23,
+            "unit": "[%]",
+            "reference_value": "(0.17-0.35)",
+            "method": null,
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 36.92
+}

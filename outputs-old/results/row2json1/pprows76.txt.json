@@ -1,0 +1,45 @@
+{
+  "filename": "pprows76.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 00:52:07",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": "نامر بيمارن سركار خانم نيايش ظفری",
+        "age": null,
+        "gender": "زن",
+        "national_code": "1182167691"
+      },
+      "lab_info": {
+        "name": "Biochemistry",
+        "code": "8",
+        "technical_officer": "دكتر زينب محجوب"
+      },
+      "doctor_info": {
+        "name": "دكتر هانيه رودگر"
+      },
+      "date": "تاريخ پسخ١٤",
+      "receipt_no": "شماره أزمايش٨",
+      "test_no": "شماره بذيرش٩",
+      "answer_date": null
+    },
+    "tests": [
+      {
+        "section": "Biochemistry",
+        "tests": [
+          {
+            "test_name": "FBS (Glucose)",
+            "result": 97.0,
+            "unit": "mg/dL",
+            "reference_value": "70-99 Normal",
+            "method": null,
+            "note": "100-125 Impaired\n≥126 Diabetes"
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 4.8
+}

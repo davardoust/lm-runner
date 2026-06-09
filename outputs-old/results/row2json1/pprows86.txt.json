@@ -1,0 +1,106 @@
+{
+  "filename": "pprows86.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 00:54:52",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": "زشك دكر سرار خانم مبينا شادرون",
+        "age": 5,
+        "gender": "مرد",
+        "national_code": null
+      },
+      "lab_info": {
+        "name": "نام بيماز سجاد معين",
+        "code": "شماره يذيرش",
+        "technical_officer": "دكتر بهار اشرفي"
+      },
+      "doctor_info": {
+        "name": "دكتر بهار اشرفي"
+      },
+      "date": null,
+      "receipt_no": null,
+      "test_no": null,
+      "answer_date": null
+    },
+    "tests": [
+      {
+        "section": "Hematology",
+        "tests": [
+          {
+            "test_name": "WBC",
+            "result": 3.05,
+            "unit": "10^3/μL",
+            "reference_value": "4.0-11.0",
+            "method": null,
+            "note": "↓"
+          },
+          {
+            "test_name": "RBC",
+            "result": 5.59,
+            "unit": "10^6/μL",
+            "reference_value": "4.5-5.9",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Hemoglobin",
+            "result": 14.0,
+            "unit": "g/dL",
+            "reference_value": "13.5-17.5",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Hematocrit",
+            "result": 43.0,
+            "unit": "%",
+            "reference_value": "41-53",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "MCV",
+            "result": 93.0,
+            "unit": "fL",
+            "reference_value": "80-100",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "Platelets",
+            "result": 266.0,
+            "unit": "10^3/μL",
+            "reference_value": "150-450",
+            "method": null,
+            "note": null
+          }
+        ]
+      },
+      {
+        "section": "Jrine Analysis",
+        "tests": [
+          {
+            "test_name": "color",
+            "result": "Yellow",
+            "unit": "Appearance",
+            "reference_value": "Semi-Clear",
+            "method": null,
+            "note": null
+          },
+          {
+            "test_name": "pH",
+            "result": 5.92,
+            "unit": "5.0-7.5",
+            "reference_value": "Specific Gravity",
+            "method": null,
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 9.86
+}

@@ -1,0 +1,45 @@
+{
+  "filename": "pprows68.txt",
+  "prompt_id": "row2json2",
+  "timestamp": "2026-05-20 00:49:52",
+  "status": "success",
+  "data": {
+    "header": {
+      "patient_info": {
+        "name": "نام يما؛ تنا همداني",
+        "age": 70,
+        "gender": "زن",
+        "national_code": null
+      },
+      "lab_info": {
+        "name": "نام بزشك دكر هليا ضابعي",
+        "code": "شماره زمايش",
+        "technical_officer": "شماره يذيرش ٩"
+      },
+      "doctor_info": {
+        "name": "ستول في دكتر آرش ظفري"
+      },
+      "date": null,
+      "receipt_no": null,
+      "test_no": null,
+      "answer_date": null
+    },
+    "tests": [
+      {
+        "section": "Hormones",
+        "tests": [
+          {
+            "test_name": "TSH",
+            "result": 19.0,
+            "unit": "ng/mL",
+            "reference_value": "Male: 3-15",
+            "method": null,
+            "note": null
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "duration": 4.2
+}
