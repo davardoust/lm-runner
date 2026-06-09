@@ -7,8 +7,13 @@ class SchemaFactory:
     def get_schema(schema_name: str) -> Type[BaseModel]:
         try:
             if schema_name == "LabReport":
-                from schemas import LabReport
-                return LabReport
+                from src.schemas import LabReportSchema
+                return LabReportSchema
+            
+            if schema_name == "TestSection":
+                from src.schemas import TestSectionSchema
+                return TestSectionSchema
+            
             # elif schema_name == "MedicalDiagnosis":
             #     from schemas import MedicalDiagnosis
             #     return MedicalDiagnosis

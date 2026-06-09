@@ -5,10 +5,10 @@ import csv
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from .preprocessor import ImagePreprocessor
 from .agent_factory import LabExtractionAgent
-from schemas import LabReport
+from schemas import LabReportSchema
 
 # Import Opik Tracer
-from opik.integrations.langchain import OpikTracer
+# from opik.integrations.langchain import OpikTracer
 
 class LabReportPipeline:
     def __init__(self, config, logger):
@@ -34,11 +34,11 @@ class LabReportPipeline:
 
         # 3. Initialize Opik Tracer
         # Ensure OPIK_API_KEY is set in environment or via `opik configure`
-        self.opik_tracer = OpikTracer(
-            tags=["lab-report-pipeline"],
-            project_name="medical-ocr-extraction"
-        )
-        self.logger.info("Opik Observability initialized.")
+        # self.opik_tracer = OpikTracer(
+        #     tags=["lab-report-pipeline"],
+        #     project_name="medical-ocr-extraction"
+        # )
+        # self.logger.info("Opik Observability initialized.")
 
     def _load_prompts(self):
         path = self.config['system'].get('prompts_dir', 'prompts/')
@@ -116,11 +116,11 @@ class LabReportPipeline:
 
                 try:
                     # Invoke Agent with Opik Tracer
-                    lab_report: LabReport = self.agent.invoke(
+                    lab_report: LabReportSchema = self.agent.invoke(
                         img_b64, 
                         p_text, 
                         filename,
-                        callbacks=[self.opik_tracer] # Pass tracer here
+                        # callbacks=[self.opik_tracer] # Pass tracer here
                     )
                     
                     # Success
@@ -242,11 +242,11 @@ class LabReportPipeline:
 
                 try:
                     # No image — pass None for img_b64
-                    lab_report: LabReport = self.agent.invoke(
+                    lab_report: LabReportSchema = self.agent.invoke(
                         None,
                         combined_text,
                         filename,
-                        callbacks=[self.opik_tracer]
+                        # callbacks=[self.opik_tracer]
                     )
                     result_entry["status"] = "success"
                     result_entry["data"] = lab_report.model_dump()

@@ -3,19 +3,22 @@ from langchain_ollama import ChatOllama
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage
 from src.schema_factory import SchemaFactory
-from schemas import LabReport
+from src.schemas import LabReportSchema
 import sys
 
 class LabExtractionAgent:
-    def __init__(self, config, logger):
+    def __init__(self, config, logger, custom_schema_dict=None):
         """
         Initializes either LangChain Ollama or OpenAI model with structured output.
         Supports Ollama (local) and LM Studio (OpenAI-compatible) backends.
         Enforces network timeouts via httpx.Client.
+        Supports dynamic schema injection via custom_schema_dict.
         """
         self.logger = logger
         model_name = config['model']['name']
-        schema_name = config['model']['schema']
+        
+        # Safely get schema name from config, fallback to LabReport
+        schema_name = config['model'].get('schema', 'LabReport') 
         self.schema_factory = SchemaFactory()
 
         # Determine provider (default to ollama if not specified)
@@ -59,35 +62,38 @@ class LabExtractionAgent:
         else:
             raise ValueError(f"Unsupported provider: {provider}. Use 'ollama' or 'lmstudio'")
         
-        # Bind the Pydantic Schema directly to the model
-        schema = self.schema_factory.get_schema(schema_name)
-        
         self.runnable = llm
         
-        if schema:
-            self.runnable = llm.with_structured_output(schema)
+        # Bind the schema (Custom JSON dict OR Pydantic model from SchemaFactory)
+        if custom_schema_dict:
+            self.logger.info("Binding custom JSON schema to model.")
+            self.runnable = llm.with_structured_output(custom_schema_dict)
+        else:
+            self.logger.info(f"Binding SchemaFactory schema: '{schema_name}' to model.")
+            schema = self.schema_factory.get_schema(schema_name)
+            if schema:
+                self.runnable = llm.with_structured_output(schema)
 
         # Store provider for logging/debugging
         self.provider = provider
 
-    def invoke(self, image_b64: str, prompt_text: str, filename: str, callbacks=None) -> LabReport:
+    def invoke(self, image_b64: str, prompt_text: str, filename: str, callbacks=None):
         """
-        Runs the agent on a single image.
-        Returns: A validated LabReport Pydantic object.
+        Runs the agent on a single image or text file.
+        Returns: A validated Pydantic object (if using SchemaFactory) or a dict (if using custom_schema_dict).
         """
         # Construct the multimodal message
         messages = [{"type": "text", "text": prompt_text}]
 
-        image_message = {
-                            "type": "image_url",
-                            "image_url": {"url": f"data:image/jpeg;base64,{image_b64}"}
-                        }
-
         if image_b64:
-           messages.append(image_message)
+            image_message = {
+                "type": "image_url",
+                "image_url": {"url": f"data:image/jpeg;base64,{image_b64}"}
+            }
+            messages.append(image_message)
         
         message = HumanMessage(
-            content = messages
+            content=messages
         )
         
         self.logger.info(f"[{filename}] >>> Sending request to {self.provider}...")

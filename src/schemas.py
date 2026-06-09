@@ -1,30 +1,30 @@
 from typing import List, Optional, Union, Any
 from pydantic import BaseModel, Field
 
-class PatientInfo(BaseModel):
+class PatientInfoSchema(BaseModel):
     name: Optional[str] = None
     age: Optional[int] = None
     gender: Optional[str] = None
     national_code: Optional[str] = None
 
-class LabInfo(BaseModel):
+class LabInfoSchema(BaseModel):
     name: Optional[str] = None
     code: Optional[Union[int, str]] = None
     technical_officer: Optional[str] = None
 
-class DoctorInfo(BaseModel):
+class DoctorInfoSchema(BaseModel):
     name: Optional[str] = None
 
 class Header(BaseModel):
-    patient_info: PatientInfo = Field(default_factory=PatientInfo)
-    lab_info: LabInfo = Field(default_factory=LabInfo)
-    doctor_info: DoctorInfo = Field(default_factory=DoctorInfo)
+    patient_info: PatientInfoSchema = Field(default_factory=PatientInfoSchema)
+    lab_info: LabInfoSchema = Field(default_factory=LabInfoSchema)
+    doctor_info: DoctorInfoSchema = Field(default_factory=DoctorInfoSchema)
     date: Optional[str] = None
     receipt_no: Optional[Union[int, str]] = None
     test_no: Optional[str] = None
     answer_date: Optional[str] = None
 
-class TestItem(BaseModel):
+class TestItemSchema(BaseModel):
     test_name: str
     result: Union[float, str, None]
     unit: Optional[str] = None
@@ -32,10 +32,11 @@ class TestItem(BaseModel):
     method: Optional[str] = None
     note: Optional[str] = None
 
-class TestSection(BaseModel):   
+class TestSectionSchema(BaseModel):   
     section: str
-    tests: List[TestItem] = []
+    tests: List[TestItemSchema] = []
 
-class LabReport(BaseModel):
+class LabReportSchema(BaseModel):
     header: Header = Field(default_factory=Header)
-    tests: List[TestSection] = []
+    tests: List[TestSectionSchema] = []
+
