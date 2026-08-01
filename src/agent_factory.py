@@ -2,6 +2,7 @@ import httpx
 from langchain_ollama import ChatOllama
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage
+from litellm import max_tokens
 from src.schema_factory import SchemaFactory
 from src.schemas import LabReportSchema
 import sys
@@ -56,6 +57,7 @@ class LabExtractionAgent:
                 base_url=base_url,
                 api_key=api_key,
                 http_client=http_client,
+                max_tokens = 6000,
                 max_retries=0  # Disable retries for faster failure
             )
             

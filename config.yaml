@@ -11,13 +11,14 @@ system:
   
 model:
   # name: "llama3.2:1b"
-  # provider: ollama
-  provider: lmstudio
+  provider: ollama
+  api_key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk2YzQ3M2NiLTdjODgtNDEwYi05Zjg4LWVlNmZjMzZkOGEzZiJ9.YGENbxmBF3aDPdr5QCXOYodoEemtGYBatFSTbhJizVU
+  # provider: lmstudio
   # base_url: http://localhost:11434
-  base_url: http://localhost:1234/v1
+  base_url: http://192.168.110.203:3000/api
   # name: "allenai/olmocr-2-7b"
   # name: "Qwen3-VL-4B-Instruct"
-  name: "qwen3-coder-30b-a3b-instruct"
+  name: "qwen3-vl-4b-instruct-q4_k_m:latest"
   schema: "LabReport"
   # name: "granite3.2-vision:2b"
   # name: "llava"

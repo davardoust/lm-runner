@@ -4,7 +4,7 @@ import time
 import copy
 import json
 import tempfile
-from fastapi import FastAPI, UploadFile, File, Form, HTTPException
+from fastapi import FastAPI, Form, HTTPException
 from fastapi.responses import JSONResponse
 from dotenv import load_dotenv
 
@@ -53,12 +53,14 @@ def get_prompt_text(prompt_name: str, prompts_dir: str) -> str:
 
 @app.post("/extract")
 async def extract_lab_report(
-    file: UploadFile = File(..., description="The lab report image (.jpg/.png) or raw text (.txt)"),
+    content: str = Form(..., description="The lab report content - either base64 encoded image string or raw text"),
+    content_type: str = Form(..., description="Type of content provided: 'image_b64' or 'raw_text'"),
     prompt_name: str = Form(..., description="Name of the prompt file (e.g., 'blood_test_v1')"),
     model_name: str = Form(..., description="Target model name (e.g., 'llama3', 'gpt-4o')"),
     provider: str = Form("ollama", description="Model provider ('ollama' or 'lmstudio')"),
     schema_name: str = Form("LabReport", description="Name of the Pydantic schema in SchemaFactory"),
-    custom_schema: str = Form(None, description="Optional raw JSON schema string to bypass SchemaFactory")
+    custom_schema: str = Form(None, description="Optional raw JSON schema string to bypass SchemaFactory"),
+    filename: str = Form("unknown", description="Optional filename for logging purposes")
 ):
     start_time = time.time()
     
@@ -69,6 +71,10 @@ async def extract_lab_report(
             schema_dict = json.loads(custom_schema)
         except json.JSONDecodeError:
             raise HTTPException(status_code=400, detail="custom_schema must be a valid JSON string.")
+    
+    # Validate content_type
+    if content_type not in ['image_b64', 'raw_text']:
+        raise HTTPException(status_code=400, detail="content_type must be either 'image_b64' or 'raw_text'")
 
     # 2. Isolate config for this specific request to prevent race conditions
     request_config = copy.deepcopy(base_config)
@@ -82,11 +88,7 @@ async def extract_lab_report(
         # 3. Retrieve Prompt
         prompt_text = get_prompt_text(prompt_name, prompts_dir)
         
-        # 4. Read File Content
-        file_content = await file.read()
-        filename = file.filename
-        
-        # 5. Initialize Agent & Opik Tracer
+        # 4. Initialize Agent & Opik Tracer
         agent = LabExtractionAgent(request_config, logger, custom_schema_dict=schema_dict)
         
         opik_tracer = OpikTracer(
@@ -97,27 +99,17 @@ async def extract_lab_report(
         img_b64 = None
         combined_text = prompt_text
         
-        # 6. Process Image vs Text
-        if filename.lower().endswith(('.png', '.jpg', '.jpeg', '.webp')):
-            # Since ImagePreprocessor requires a path, use a NamedTemporaryFile
-            with tempfile.NamedTemporaryFile(delete=False, suffix=os.path.splitext(filename)[1]) as temp_file:
-                temp_file.write(file_content)
-                temp_path = temp_file.name
+        # 5. Process based on content_type
+        if content_type == 'image_b64':
+            # Use the provided base64 string directly
+            img_b64 = content
             
-            try:
-                preprocessor = ImagePreprocessor(logger)
-                img_b64 = preprocessor.process(temp_path)
-            finally:
-                os.remove(temp_path)  # Cleanup temp file
-                
-        elif filename.lower().endswith('.txt'):
-            txt_content = file_content.decode('utf-8')
-            combined_text = prompt_text + "\n\n" + txt_content
-        else:
-            raise HTTPException(status_code=400, detail="Unsupported file format. Please upload an image or text file.")
-            
-        # 7. Execute Extraction
-        logger.info(f"API Processing [{filename}] | Model: {model_name} | Prompt: {prompt_name}")
+        elif content_type == 'raw_text':
+            # Combine prompt with raw text
+            combined_text = prompt_text + "\n\n" + content
+        
+        # 6. Execute Extraction
+        logger.info(f"API Processing [{filename}] | Model: {model_name} | Prompt: {prompt_name} | Type: {content_type}")
         
         lab_report = agent.invoke(
             image_b64=img_b64,
@@ -126,7 +118,7 @@ async def extract_lab_report(
             callbacks=[opik_tracer]
         )
         
-        # 8. Extract Data Safely (Handles both Pydantic Models and raw dicts)
+        # 7. Extract Data Safely (Handles both Pydantic Models and raw dicts)
         if hasattr(lab_report, "model_dump"):
             response_data = lab_report.model_dump()
         elif hasattr(lab_report, "dict"):  # Fallback for older Pydantic versions
@@ -136,7 +128,7 @@ async def extract_lab_report(
 
         duration = round(time.time() - start_time, 2)
         
-        # 9. Format Response
+        # 8. Format Response
         return JSONResponse(content={
             "status": "success",
             "filename": filename,
@@ -144,15 +136,16 @@ async def extract_lab_report(
             "model": model_name,
             "prompt_id": prompt_name,
             "schema_used": "custom_json" if custom_schema else schema_name,
+            "content_type": content_type,
             "duration": duration,
             "data": response_data
         })
         
     except Exception as e:
-        logger.error(f"API Error processing {file.filename}: {e}", exc_info=True)
+        logger.error(f"API Error processing {filename}: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
     import uvicorn
     # Make sure to run from the root of your project
-    uvicorn.run("app:app", host="0.0.0.0", port=8001, reload=False)
+    uvicorn.run("app:app", host="0.0.0.0", port=8005, reload=False)
